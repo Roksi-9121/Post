@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Post Management</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+</head>
+
+<body>
+    <div class="container">
+        <div class="flex-container">
+            <div class="column">
+                <h1>Manage Posts</h1>
+                <form id="postForm">
+                    <input type="text" id="title" placeholder="Title" required />
+                    <textarea id="description" placeholder="Description" required></textarea>
+                    <input type="text" id="author" placeholder="Author" required />
+                    <button type="submit">Save Post</button>
+                </form>
+            </div>
+
+            <div class="column">
+                <h2>Post List</h2>
+                <ul id="postList">
+                </ul>
+            </div>
+
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
